@@ -4,7 +4,7 @@ const symbolRegex = new RegExp(/[^\.\d\n]/)
 const starRegex = new RegExp(/\*/)
 
 function SumOfValidPartNumbers() {
-  const input = parseInputFileTo2DStringArray('./inputs/day3.txt')
+  const input = parseInputFileTo2DStringArray('../inputs/day3.txt')
   let total = 0
   let symbolFound = false
   let number = ''
@@ -68,7 +68,7 @@ function FindAdjacentStarCoordinates(
 }
 
 function SumOfValidPartPairs() {
-  const input = parseInputFileTo2DStringArray('./inputs/day3.txt')
+  const input = parseInputFileTo2DStringArray('../inputs/day3.txt')
   let total = 0
   const starSet = new Map<string, number[]>()
   const starsFound = new Set<string>()

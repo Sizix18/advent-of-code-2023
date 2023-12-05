@@ -5,7 +5,7 @@ const BLUE_COUNT = 14
 
 function CheckGameLegality() {
   let input = []
-  input = parseInputFileToStringArray('./inputs/day2.txt')
+  input = parseInputFileToStringArray('../inputs/day2.txt')
   let partOnePassScore = 0
   let partTwoPassScore = 0
   for (const game of input) {
